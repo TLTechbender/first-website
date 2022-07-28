@@ -50,8 +50,6 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 .last-ones{
     display: grid;
     grid-column: 1/1;
+  place-items:center;
 }
-.images-store{
-display:flex;
-justify-content:center;
-}
+
