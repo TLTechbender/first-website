@@ -1,0 +1,72 @@
+
+.form{
+    display: flex;
+    justify-content: center;
+    
+font-size:18.8px;
+
+}
+
+.page-border{
+    padding:35px;
+}
+.submission{
+    display: flex;
+    justify-content:center;
+}
+.legend-border{
+    border: thick solid black;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+ margin: 0;
+top: 0;
+padding: 0;
+  
+}
+
+li {
+  float: left;
+font-size: 25px;
+}
+
+li a {
+  display:block;
+    color: white;
+  text-align: center;
+padding: 13px 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+.size-2{
+    height: 23px;
+    width: 90px;
+    margin-bottom:10px;
+    padding-left: 10px;
+}
+.comment-size{
+    height:55px;
+    width:300px;
+    margin-bottom:10px;
+}
+.submission{
+    display: flex;
+    justify-content: center;
+   margin-top: 10px;
+}
+
+.submit{
+    size: 18px;
+ 
+}

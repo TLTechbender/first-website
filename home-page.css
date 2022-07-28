@@ -1,0 +1,81 @@
+.first-image{
+    height: 100%;
+    width: 100%;
+}
+
+.main-bar{
+margin-bottom: 20px;
+    }
+        h1{
+        text-align: center;
+            font-size: 40px;
+        font-weight: bold;
+    font-family:'Brush Script MT', cursive;
+} 
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  position:sticky; 
+  position: -webkit-sticky;
+margin: 0;
+top: 0;
+padding: 0;
+/* I don't think that sticky works for images*/
+
+ 
+}
+
+li {
+  float: left;
+font-size: 25px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+padding: 14px 13px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+.image-container{
+    position: relative;
+    text-align: center;
+
+}
+.text-1{
+position: absolute;
+  bottom: 8px;
+  left: 16px;
+font-family: 'Times New Roman', Times, serif;
+font-style: oblique;
+font-size: 46.5px;
+}
+.text-2{
+     position: absolute;
+  top: 8px;
+  left: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+font-size:36.5px;
+
+}
+
+.second-image{
+    position: absolute;
+    width:10%;
+    height:25%;
+  top: 8px; 
+  right: 16px;
+
+}
